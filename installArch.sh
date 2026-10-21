@@ -45,7 +45,7 @@ echo "Installation base packages compelted"
 
 # Install Hypr ecosystem
 if [[ "$install_hyprland" == "y" || "$install_hyprland" == "Y" ]]; then
-    sudo pacman -S --needed --noconfirm hyprland hyprsunset hyprlock hyprpicker hyprshot hyprpm hyprpaper hyprshutdown waybar ulauncher-git
+    sudo pacman -S --needed --noconfirm hyprland wlsunset hyprlock hyprpicker hyprshot hyprpm hyprpaper hyprshutdown waybar ulauncher-git
     echo "Hyprland installed successfully."
 else
     echo "Skipping Hyprland installation."
