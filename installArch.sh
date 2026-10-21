@@ -144,6 +144,9 @@ else
 fi
 # Other settings
 
+# Setup tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 # Pacman
 echo "Setting up pacman settings..."
 
