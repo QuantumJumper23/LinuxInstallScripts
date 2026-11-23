@@ -70,7 +70,7 @@ if [[ "$install_hermit" == "y" || "$install_hermit" == "Y" ]]; then
   cd ~
   mkdir -p Downloads
   cd Downloads
-  curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Hermit.zip -o Hermit.zip
+  curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v3.5.1/Hermit.zip -o Hermit.zip
   sudo mkdir -p /usr/share/fonts/Hermit
   sudo unzip Hermit.zip -d /usr/share/fonts/Hermit
   
