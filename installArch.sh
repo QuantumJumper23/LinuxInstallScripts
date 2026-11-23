@@ -46,6 +46,10 @@ echo "Installation base packages compelted"
 # Install Hypr ecosystem
 if [[ "$install_hyprland" == "y" || "$install_hyprland" == "Y" ]]; then
     sudo pacman -S --needed --noconfirm hyprland wlsunset hyprlock hyprpicker hyprshot hyprpm hyprpaper hyprshutdown waybar rofi rofi-calc
+	hyprpm update
+	hyprpm add https://github.com/gfhdhytghd/HyprCapture
+	hyprpm enable hyprcapture
+	hyprpm reload
     echo "Hyprland installed successfully."
 else
     echo "Skipping Hyprland installation."
